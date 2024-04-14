@@ -1,0 +1,3 @@
+0 Black Sigatoka
+1 banana bacterial wilt
+2 brown streak disease
