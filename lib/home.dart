@@ -25,16 +25,16 @@ class _HomePageState extends State<HomePage> {
   }
 
   detectimage(File image) async {
-    var prediction = await Tflite.runModelOnImage(
-        path: image.path,
-        numResults: 2,
-        threshold: 0.6,
-        imageMean: 127.5,
-        imageStd: 127.5);
+    // var prediction = await Tflite.runModelOnImage(
+    //     path: image.path,
+    //     numResults: 2,
+    //     threshold: 0.6,
+    //     imageMean: 127.5,
+    //     imageStd: 127.5);
 
     setState(() {
-      _output = prediction;
-      loading = false;
+      // _output = prediction;
+      // loading = false;
     });
   }
 
